@@ -1,0 +1,10 @@
+enconsole package
+=================
+
+Module contents
+---------------
+
+.. automodule:: enconsole
+   :members:
+   :show-inheritance:
+   :undoc-members:
