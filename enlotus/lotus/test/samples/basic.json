@@ -1,0 +1,22 @@
+{
+  "database": "sqlite:///_/encommon_sample/TMPPATH/_/db",
+  "enconfig": {
+    "paths": [
+      "_/encommon_sample/TMPPATH/_/lotus"
+    ]
+  },
+  "encrypts": {
+    "phrases": {
+      "enlotus": {
+        "phrase": "oIUc2odGYMKycATXsvXTMzxe0Qbq4z3YPPIWS8fH_uU="
+      }
+    }
+  },
+  "enlogger": {
+    "stdo_level": "debug"
+  },
+  "console": true,
+  "debug": true,
+  "dryrun": false,
+  "forced": false
+}

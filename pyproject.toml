@@ -1,0 +1,47 @@
+
+
+
+[project]
+
+name = "enlotus"
+description = "Enasis Network Family Console"
+
+readme = "README.md"
+
+license.text = "MIT"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"]
+
+requires-python = ">= 3.11"
+
+dynamic = ["version", "dependencies"]
+
+
+
+[project.urls]
+
+Source = "https://github.com/enasisnetwork/enlotus"
+Documentation = "https://enasisnetwork.github.io/enlotus/sphinx"
+
+
+
+[tool.setuptools.dynamic]
+
+version.attr = "enlotus.__version__"
+
+dependencies.file = ["require/install.txt"]
+
+
+
+[tool.setuptools.packages.find]
+
+include = ["enlotus", "enlotus.*"]
+
+
+
+[tool.ruff.lint.per-file-ignores]
+
+"sphinx/conf.py" = ["E402"]
