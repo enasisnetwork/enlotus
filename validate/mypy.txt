@@ -1,0 +1,9 @@
+>>> make mypy
+  ● Executing mypy in enconsole..
+    DONE
+  ● Executing mypy in sphinx..
+    DONE
+  ● Executing mypy on makefile.py..
+    DONE
+  ● Executing mypy on makebadge.py..
+    DONE
