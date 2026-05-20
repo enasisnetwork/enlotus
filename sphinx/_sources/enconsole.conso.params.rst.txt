@@ -1,0 +1,29 @@
+enconsole.conso.params package
+==============================
+
+Submodules
+----------
+
+enconsole.conso.params.common module
+------------------------------------
+
+.. automodule:: enconsole.conso.params.common
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+enconsole.conso.params.conso module
+-----------------------------------
+
+.. automodule:: enconsole.conso.params.conso
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: enconsole.conso.params
+   :members:
+   :show-inheritance:
+   :undoc-members:

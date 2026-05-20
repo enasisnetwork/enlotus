@@ -1,6 +1,25 @@
 enconsole package
 =================
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   enconsole.conso
+
+Submodules
+----------
+
+enconsole.conftest module
+-------------------------
+
+.. automodule:: enconsole.conftest
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
 Module contents
 ---------------
 
