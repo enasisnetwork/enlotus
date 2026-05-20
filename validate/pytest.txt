@@ -3,21 +3,47 @@
 ============================= test session starts ==============================
 platform linux -- Python 3.12.13, pytest-9.0.3, pluggy-1.6.0 -- /home/runner/work/enconsole/enconsole/main/.venv-package/bin/python3
 cachedir: .pytest_cache
-Using --randomly-seed=1746402792
+Using --randomly-seed=1939136543
 rootdir: /home/runner/work/enconsole/enconsole/main
 configfile: pyproject.toml
 plugins: mypy-1.0.1, xdist-3.8.0, clarity-1.0.1, anyio-4.13.0, cov-7.1.0, sphinx-0.7.1, randomly-4.1.0
 created: 4/4 workers
-4 workers [0 items]
+4 workers [4 items]
 
 scheduling tests via LoadScheduling
+
+enconsole/conso/test/test_conso.py::test_Conso 
+enconsole/conso/test/test_conso.py::test_Conso_cover 
+enconsole/conso/test/test_models.py::test_ConsoModels_cover 
+enconsole/conso/test/test_config.py::test_ConsoConfig 
+[gw3] [ 25%] PASSED enconsole/conso/test/test_models.py::test_ConsoModels_cover 
+[gw1] [ 50%] PASSED enconsole/conso/test/test_conso.py::test_Conso_cover 
+[gw2] [ 75%] PASSED enconsole/conso/test/test_config.py::test_ConsoConfig 
+[gw0] [100%] PASSED enconsole/conso/test/test_conso.py::test_Conso 
 
 ================================ tests coverage ================================
 _______________ coverage: platform linux, python 3.12.13-final-0 _______________
 
-Name                    Stmts   Miss  Cover
--------------------------------------------
-enconsole/__init__.py       9      1    89%
--------------------------------------------
-TOTAL                       9      1    89%
-============================ no tests ran in 1.08s =============================
+Name                                  Stmts   Miss  Cover
+---------------------------------------------------------
+enconsole/__init__.py                     7      0   100%
+enconsole/conftest.py                    24      0   100%
+enconsole/conso/__init__.py               4      0   100%
+enconsole/conso/config.py                60      0   100%
+enconsole/conso/conso.py                 31      0   100%
+enconsole/conso/models.py                 6      0   100%
+enconsole/conso/params/__init__.py        2      0   100%
+enconsole/conso/params/common.py          2      0   100%
+enconsole/conso/params/conso.py          12      0   100%
+enconsole/conso/test/__init__.py          2      0   100%
+enconsole/conso/test/test_config.py      19      0   100%
+enconsole/conso/test/test_conso.py       28      0   100%
+enconsole/conso/test/test_models.py       4      0   100%
+---------------------------------------------------------
+TOTAL                                   201      0   100%
+============================== 4 passed in 2.88s ===============================
+    DONE
+  ● Write coveragepy output to htmlcov..
+    DONE
+  ● Write coveragepy output to coverage.json..
+    DONE
