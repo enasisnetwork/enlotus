@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>enconsole.conftest &#8212; enconsole  documentation</title>
+    <title>enlotus.conftest &#8212; enlotus  documentation</title>
   
   
   
@@ -41,7 +41,7 @@
     <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '_modules/enconsole/conftest';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '_modules/enlotus/conftest';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
     <link rel="icon" href="../../_static/icon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
@@ -116,7 +116,7 @@
   
   
   
-    <p class="title logo__title">enconsole  documentation</p>
+    <p class="title logo__title">enlotus  documentation</p>
   
 </a></div>
     
@@ -275,7 +275,7 @@
     
     <li class="breadcrumb-item"><a href="../index.html" class="nav-link">Module code</a></li>
     
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">enconsole.conftest</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">enlotus.conftest</span></li>
   </ul>
 </nav>
 </div>
@@ -292,7 +292,7 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <h1>Source code for enconsole.conftest</h1><div class="highlight"><pre>
+  <h1>Source code for enlotus.conftest</h1><div class="highlight"><pre>
 <span></span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">Functions and routines associated with Enasis Network Family Console.</span>
 
@@ -316,7 +316,7 @@
 
 
 <div class="viewcode-block" id="config_factory">
-<a class="viewcode-back" href="../../enconsole.html#enconsole.conftest.config_factory">[docs]</a>
+<a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.config_factory">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">config_factory</span><span class="p">(</span>
     <span class="n">tmp_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ConsoConfig</span><span class="p">:</span>
@@ -339,7 +339,7 @@
 
 <span class="s2">        encrypts:</span>
 <span class="s2">          phrases:</span>
-<span class="s2">            enconsole:</span>
+<span class="s2">            enlotus:</span>
 <span class="s2">              phrase: oIUc2odGYMKycATXsvXTMzxe0Qbq4z3YPPIWS8fH_uU=</span>
 
 <span class="s2">        database: &gt;-</span>
@@ -366,7 +366,7 @@
 
 
 <div class="viewcode-block" id="config">
-<a class="viewcode-back" href="../../enconsole.html#enconsole.conftest.config">[docs]</a>
+<a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.config">[docs]</a>
 <span class="nd">@fixture</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">config</span><span class="p">(</span>
     <span class="n">tmp_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
@@ -384,7 +384,7 @@
 
 
 <div class="viewcode-block" id="replaces">
-<a class="viewcode-back" href="../../enconsole.html#enconsole.conftest.replaces">[docs]</a>
+<a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.replaces">[docs]</a>
 <span class="nd">@fixture</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">replaces</span><span class="p">(</span>
     <span class="n">tmp_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
@@ -404,7 +404,7 @@
 
 
 <div class="viewcode-block" id="conso_factory">
-<a class="viewcode-back" href="../../enconsole.html#enconsole.conftest.conso_factory">[docs]</a>
+<a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.conso_factory">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">conso_factory</span><span class="p">(</span>
     <span class="n">config</span><span class="p">:</span> <span class="n">ConsoConfig</span><span class="p">,</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Conso</span><span class="p">:</span>
@@ -421,7 +421,7 @@
 
 
 <div class="viewcode-block" id="conso">
-<a class="viewcode-back" href="../../enconsole.html#enconsole.conftest.conso">[docs]</a>
+<a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.conso">[docs]</a>
 <span class="nd">@fixture</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">conso</span><span class="p">(</span>
     <span class="n">config</span><span class="p">:</span> <span class="n">ConsoConfig</span><span class="p">,</span>

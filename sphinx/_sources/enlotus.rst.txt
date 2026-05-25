@@ -1,5 +1,5 @@
-enconsole package
-=================
+enlotus package
+===============
 
 Subpackages
 -----------
@@ -7,15 +7,15 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   enconsole.conso
+   enlotus.conso
 
 Submodules
 ----------
 
-enconsole.conftest module
--------------------------
+enlotus.conftest module
+-----------------------
 
-.. automodule:: enconsole.conftest
+.. automodule:: enlotus.conftest
    :members:
    :show-inheritance:
    :undoc-members:
@@ -23,7 +23,7 @@ enconsole.conftest module
 Module contents
 ---------------
 
-.. automodule:: enconsole
+.. automodule:: enlotus
    :members:
    :show-inheritance:
    :undoc-members:
