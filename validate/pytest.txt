@@ -1,10 +1,10 @@
 >>> make pytest
-  ● Executing pytest in enconsole..
+  ● Executing pytest in enlotus..
 ============================= test session starts ==============================
-platform linux -- Python 3.12.13, pytest-9.0.3, pluggy-1.6.0 -- /home/runner/work/enconsole/enconsole/main/.venv-package/bin/python3
+platform linux -- Python 3.12.13, pytest-9.0.3, pluggy-1.6.0 -- /home/runner/work/enlotus/enlotus/main/.venv-package/bin/python3
 cachedir: .pytest_cache
-Using --randomly-seed=3595639519
-rootdir: /home/runner/work/enconsole/enconsole/main
+Using --randomly-seed=190575561
+rootdir: /home/runner/work/enlotus/enlotus/main
 configfile: pyproject.toml
 plugins: mypy-1.0.1, xdist-3.8.0, clarity-1.0.1, anyio-4.13.0, cov-7.1.0, sphinx-0.7.1, randomly-4.1.0
 created: 4/4 workers
@@ -12,36 +12,36 @@ created: 4/4 workers
 
 scheduling tests via LoadScheduling
 
-enconsole/conso/test/test_conso.py::test_Conso 
-enconsole/conso/test/test_conso.py::test_Conso_cover 
-enconsole/conso/test/test_models.py::test_ConsoModels_cover 
-enconsole/conso/test/test_config.py::test_ConsoConfig 
-[gw3] [ 25%] PASSED enconsole/conso/test/test_models.py::test_ConsoModels_cover 
-[gw1] [ 50%] PASSED enconsole/conso/test/test_conso.py::test_Conso_cover 
-[gw0] [ 75%] PASSED enconsole/conso/test/test_conso.py::test_Conso 
-[gw2] [100%] PASSED enconsole/conso/test/test_config.py::test_ConsoConfig 
+enlotus/conso/test/test_conso.py::test_Conso 
+enlotus/conso/test/test_models.py::test_ConsoModels_cover 
+enlotus/conso/test/test_config.py::test_ConsoConfig 
+enlotus/conso/test/test_conso.py::test_Conso_cover 
+[gw1] [ 25%] PASSED enlotus/conso/test/test_models.py::test_ConsoModels_cover 
+[gw2] [ 50%] PASSED enlotus/conso/test/test_conso.py::test_Conso_cover 
+[gw3] [ 75%] PASSED enlotus/conso/test/test_conso.py::test_Conso 
+[gw0] [100%] PASSED enlotus/conso/test/test_config.py::test_ConsoConfig 
 
 ================================ tests coverage ================================
 _______________ coverage: platform linux, python 3.12.13-final-0 _______________
 
-Name                                  Stmts   Miss  Cover
----------------------------------------------------------
-enconsole/__init__.py                     7      0   100%
-enconsole/conftest.py                    24      0   100%
-enconsole/conso/__init__.py               4      0   100%
-enconsole/conso/config.py                60      0   100%
-enconsole/conso/conso.py                 31      0   100%
-enconsole/conso/models.py                 6      0   100%
-enconsole/conso/params/__init__.py        2      0   100%
-enconsole/conso/params/common.py          2      0   100%
-enconsole/conso/params/conso.py          12      0   100%
-enconsole/conso/test/__init__.py          2      0   100%
-enconsole/conso/test/test_config.py      19      0   100%
-enconsole/conso/test/test_conso.py       28      0   100%
-enconsole/conso/test/test_models.py       4      0   100%
----------------------------------------------------------
-TOTAL                                   201      0   100%
-============================== 4 passed in 2.79s ===============================
+Name                                Stmts   Miss  Cover
+-------------------------------------------------------
+enlotus/__init__.py                     7      0   100%
+enlotus/conftest.py                    24      0   100%
+enlotus/conso/__init__.py               4      0   100%
+enlotus/conso/config.py                60      0   100%
+enlotus/conso/conso.py                 31      0   100%
+enlotus/conso/models.py                 6      0   100%
+enlotus/conso/params/__init__.py        2      0   100%
+enlotus/conso/params/common.py          2      0   100%
+enlotus/conso/params/conso.py          12      0   100%
+enlotus/conso/test/__init__.py          2      0   100%
+enlotus/conso/test/test_config.py      19      0   100%
+enlotus/conso/test/test_conso.py       28      0   100%
+enlotus/conso/test/test_models.py       4      0   100%
+-------------------------------------------------------
+TOTAL                                 201      0   100%
+============================== 4 passed in 2.75s ===============================
     DONE
   ● Write coveragepy output to htmlcov..
     DONE

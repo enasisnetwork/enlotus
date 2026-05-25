@@ -1,5 +1,5 @@
 >>> make yamllint
-  ● Executing yamllint in enconsole..
+  ● Executing yamllint in enlotus..
     DONE
   ● Executing yamllint on .yamllint..
     DONE

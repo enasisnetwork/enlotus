@@ -1,5 +1,5 @@
 >>> make pylint
-  ● Executing pylint in enconsole..
+  ● Executing pylint in enlotus..
     DONE
   ● Executing pylint in sphinx..
     DONE

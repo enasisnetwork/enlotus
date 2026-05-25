@@ -1,5 +1,5 @@
 >>> make mypy
-  ● Executing mypy in enconsole..
+  ● Executing mypy in enlotus..
     DONE
   ● Executing mypy in sphinx..
     DONE
