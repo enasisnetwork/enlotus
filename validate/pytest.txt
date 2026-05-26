@@ -3,7 +3,7 @@
 ============================= test session starts ==============================
 platform linux -- Python 3.12.13, pytest-9.0.3, pluggy-1.6.0 -- /home/runner/work/enlotus/enlotus/main/.venv-package/bin/python3
 cachedir: .pytest_cache
-Using --randomly-seed=452123676
+Using --randomly-seed=2914589208
 rootdir: /home/runner/work/enlotus/enlotus/main
 configfile: pyproject.toml
 plugins: mypy-1.0.1, xdist-3.8.0, clarity-1.0.1, anyio-4.13.0, cov-7.1.0, sphinx-0.7.1, randomly-4.1.0
@@ -16,10 +16,10 @@ enlotus/conso/test/test_conso.py::test_Conso
 enlotus/conso/test/test_conso.py::test_Conso_cover 
 enlotus/conso/test/test_config.py::test_ConsoConfig 
 enlotus/conso/test/test_models.py::test_ConsoModels_cover 
-[gw3] [ 25%] PASSED enlotus/conso/test/test_models.py::test_ConsoModels_cover 
+[gw0] [ 25%] PASSED enlotus/conso/test/test_models.py::test_ConsoModels_cover 
 [gw1] [ 50%] PASSED enlotus/conso/test/test_conso.py::test_Conso_cover 
-[gw0] [ 75%] PASSED enlotus/conso/test/test_conso.py::test_Conso 
-[gw2] [100%] PASSED enlotus/conso/test/test_config.py::test_ConsoConfig 
+[gw2] [ 75%] PASSED enlotus/conso/test/test_conso.py::test_Conso 
+[gw3] [100%] PASSED enlotus/conso/test/test_config.py::test_ConsoConfig 
 
 ================================ tests coverage ================================
 _______________ coverage: platform linux, python 3.12.13-final-0 _______________
@@ -41,7 +41,7 @@ enlotus/conso/test/test_conso.py       28      0   100%
 enlotus/conso/test/test_models.py       4      0   100%
 -------------------------------------------------------
 TOTAL                                 201      0   100%
-============================== 4 passed in 2.79s ===============================
+============================== 4 passed in 2.71s ===============================
     DONE
   ● Write coveragepy output to htmlcov..
     DONE
