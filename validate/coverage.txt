@@ -2,16 +2,16 @@ Name                                Stmts   Miss  Cover
 -------------------------------------------------------
 enlotus/__init__.py                     7      0   100%
 enlotus/conftest.py                    24      0   100%
-enlotus/conso/__init__.py               4      0   100%
-enlotus/conso/config.py                60      0   100%
-enlotus/conso/conso.py                 31      0   100%
-enlotus/conso/models.py                 6      0   100%
-enlotus/conso/params/__init__.py        2      0   100%
-enlotus/conso/params/common.py          2      0   100%
-enlotus/conso/params/conso.py          12      0   100%
-enlotus/conso/test/__init__.py          2      0   100%
-enlotus/conso/test/test_config.py      19      0   100%
-enlotus/conso/test/test_conso.py       28      0   100%
-enlotus/conso/test/test_models.py       4      0   100%
+enlotus/lotus/__init__.py               4      0   100%
+enlotus/lotus/config.py                60      0   100%
+enlotus/lotus/lotus.py                 31      0   100%
+enlotus/lotus/models.py                 6      0   100%
+enlotus/lotus/params/__init__.py        2      0   100%
+enlotus/lotus/params/common.py          2      0   100%
+enlotus/lotus/params/lotus.py          12      0   100%
+enlotus/lotus/test/__init__.py          2      0   100%
+enlotus/lotus/test/test_config.py      19      0   100%
+enlotus/lotus/test/test_lotus.py       28      0   100%
+enlotus/lotus/test/test_models.py       4      0   100%
 -------------------------------------------------------
 TOTAL                                 201      0   100%
