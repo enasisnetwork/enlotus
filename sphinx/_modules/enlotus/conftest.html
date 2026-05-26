@@ -310,8 +310,8 @@
 <span class="kn">from</span><span class="w"> </span><span class="nn">pytest</span><span class="w"> </span><span class="kn">import</span> <span class="n">fixture</span>
 
 <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">PROJECT</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">.conso.config</span><span class="w"> </span><span class="kn">import</span> <span class="n">ConsoConfig</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">.conso.conso</span><span class="w"> </span><span class="kn">import</span> <span class="n">Conso</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">.lotus.config</span><span class="w"> </span><span class="kn">import</span> <span class="n">LotusConfig</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">.lotus.lotus</span><span class="w"> </span><span class="kn">import</span> <span class="n">Lotus</span>
 
 
 
@@ -319,7 +319,7 @@
 <a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.config_factory">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">config_factory</span><span class="p">(</span>
     <span class="n">tmp_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ConsoConfig</span><span class="p">:</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">LotusConfig</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Construct the instance for use in the downstream tests.</span>
 
@@ -332,7 +332,7 @@
 
 <span class="s2">        enconfig:</span>
 <span class="s2">          paths:</span>
-<span class="s2">            - </span><span class="si">{</span><span class="n">tmp_path</span><span class="si">}</span><span class="s2">/conso</span>
+<span class="s2">            - </span><span class="si">{</span><span class="n">tmp_path</span><span class="si">}</span><span class="s2">/lotus</span>
 
 <span class="s2">        enlogger:</span>
 <span class="s2">          stdo_level: info</span>
@@ -360,7 +360,7 @@
         <span class="s1">&#39;console&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
         <span class="s1">&#39;debug&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">}</span>
 
-    <span class="k">return</span> <span class="n">ConsoConfig</span><span class="p">(</span><span class="n">sargs</span><span class="p">)</span></div>
+    <span class="k">return</span> <span class="n">LotusConfig</span><span class="p">(</span><span class="n">sargs</span><span class="p">)</span></div>
 
 
 
@@ -370,7 +370,7 @@
 <span class="nd">@fixture</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">config</span><span class="p">(</span>
     <span class="n">tmp_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ConsoConfig</span><span class="p">:</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">LotusConfig</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Construct the instance for use in the downstream tests.</span>
 
@@ -403,11 +403,11 @@
 
 
 
-<div class="viewcode-block" id="conso_factory">
-<a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.conso_factory">[docs]</a>
-<span class="k">def</span><span class="w"> </span><span class="nf">conso_factory</span><span class="p">(</span>
-    <span class="n">config</span><span class="p">:</span> <span class="n">ConsoConfig</span><span class="p">,</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Conso</span><span class="p">:</span>
+<div class="viewcode-block" id="lotus_factory">
+<a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.lotus_factory">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">lotus_factory</span><span class="p">(</span>
+    <span class="n">config</span><span class="p">:</span> <span class="n">LotusConfig</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Lotus</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Construct the instance for use in the downstream tests.</span>
 
@@ -415,17 +415,17 @@
 <span class="sd">    :returns: Newly constructed instance of related class.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">return</span> <span class="n">Conso</span><span class="p">(</span><span class="n">config</span><span class="p">)</span></div>
+    <span class="k">return</span> <span class="n">Lotus</span><span class="p">(</span><span class="n">config</span><span class="p">)</span></div>
 
 
 
 
-<div class="viewcode-block" id="conso">
-<a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.conso">[docs]</a>
+<div class="viewcode-block" id="lotus">
+<a class="viewcode-back" href="../../enlotus.html#enlotus.conftest.lotus">[docs]</a>
 <span class="nd">@fixture</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">conso</span><span class="p">(</span>
-    <span class="n">config</span><span class="p">:</span> <span class="n">ConsoConfig</span><span class="p">,</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Conso</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">lotus</span><span class="p">(</span>
+    <span class="n">config</span><span class="p">:</span> <span class="n">LotusConfig</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Lotus</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Construct the instance for use in the downstream tests.</span>
 
@@ -433,7 +433,7 @@
 <span class="sd">    :returns: Newly constructed instance of related class.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">return</span> <span class="n">conso_factory</span><span class="p">(</span><span class="n">config</span><span class="p">)</span></div>
+    <span class="k">return</span> <span class="n">lotus_factory</span><span class="p">(</span><span class="n">config</span><span class="p">)</span></div>
 
 </pre></div>
 

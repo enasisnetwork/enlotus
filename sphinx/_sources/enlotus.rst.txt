@@ -7,7 +7,7 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   enlotus.conso
+   enlotus.lotus
 
 Submodules
 ----------

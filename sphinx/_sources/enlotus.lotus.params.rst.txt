@@ -1,21 +1,21 @@
-enlotus.conso.params package
+enlotus.lotus.params package
 ============================
 
 Submodules
 ----------
 
-enlotus.conso.params.common module
+enlotus.lotus.params.common module
 ----------------------------------
 
-.. automodule:: enlotus.conso.params.common
+.. automodule:: enlotus.lotus.params.common
    :members:
    :show-inheritance:
    :undoc-members:
 
-enlotus.conso.params.conso module
+enlotus.lotus.params.lotus module
 ---------------------------------
 
-.. automodule:: enlotus.conso.params.conso
+.. automodule:: enlotus.lotus.params.lotus
    :members:
    :show-inheritance:
    :undoc-members:
@@ -23,7 +23,7 @@ enlotus.conso.params.conso module
 Module contents
 ---------------
 
-.. automodule:: enlotus.conso.params
+.. automodule:: enlotus.lotus.params
    :members:
    :show-inheritance:
    :undoc-members:

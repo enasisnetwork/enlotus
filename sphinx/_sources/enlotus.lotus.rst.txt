@@ -1,4 +1,4 @@
-enlotus.conso package
+enlotus.lotus package
 =====================
 
 Subpackages
@@ -7,31 +7,31 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   enlotus.conso.params
+   enlotus.lotus.params
 
 Submodules
 ----------
 
-enlotus.conso.config module
+enlotus.lotus.config module
 ---------------------------
 
-.. automodule:: enlotus.conso.config
+.. automodule:: enlotus.lotus.config
    :members:
    :show-inheritance:
    :undoc-members:
 
-enlotus.conso.conso module
+enlotus.lotus.lotus module
 --------------------------
 
-.. automodule:: enlotus.conso.conso
+.. automodule:: enlotus.lotus.lotus
    :members:
    :show-inheritance:
    :undoc-members:
 
-enlotus.conso.models module
+enlotus.lotus.models module
 ---------------------------
 
-.. automodule:: enlotus.conso.models
+.. automodule:: enlotus.lotus.models
    :members:
    :show-inheritance:
    :undoc-members:
@@ -39,7 +39,7 @@ enlotus.conso.models module
 Module contents
 ---------------
 
-.. automodule:: enlotus.conso
+.. automodule:: enlotus.lotus
    :members:
    :show-inheritance:
    :undoc-members:
