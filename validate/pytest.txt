@@ -3,7 +3,7 @@
 ============================= test session starts ==============================
 platform linux -- Python 3.12.13, pytest-9.0.3, pluggy-1.6.0 -- /home/runner/work/enlotus/enlotus/main/.venv-package/bin/python3
 cachedir: .pytest_cache
-Using --randomly-seed=1762306971
+Using --randomly-seed=2306056392
 rootdir: /home/runner/work/enlotus/enlotus/main
 configfile: pyproject.toml
 plugins: mypy-1.0.1, xdist-3.8.0, clarity-1.0.1, anyio-4.13.0, cov-7.1.0, sphinx-0.7.1, randomly-4.1.0
@@ -12,14 +12,14 @@ created: 4/4 workers
 
 scheduling tests via LoadScheduling
 
-enlotus/lotus/test/test_models.py::test_LotusModels_cover 
 enlotus/lotus/test/test_lotus.py::test_Lotus 
-enlotus/lotus/test/test_config.py::test_LotusConfig 
 enlotus/lotus/test/test_lotus.py::test_Lotus_cover 
-[gw0] [ 25%] PASSED enlotus/lotus/test/test_models.py::test_LotusModels_cover 
-[gw2] [ 50%] PASSED enlotus/lotus/test/test_lotus.py::test_Lotus_cover 
-[gw3] [ 75%] PASSED enlotus/lotus/test/test_lotus.py::test_Lotus 
-[gw1] [100%] PASSED enlotus/lotus/test/test_config.py::test_LotusConfig 
+enlotus/lotus/test/test_models.py::test_LotusModels_cover 
+enlotus/lotus/test/test_config.py::test_LotusConfig 
+[gw3] [ 25%] PASSED enlotus/lotus/test/test_models.py::test_LotusModels_cover 
+[gw0] [ 50%] PASSED enlotus/lotus/test/test_lotus.py::test_Lotus_cover 
+[gw1] [ 75%] PASSED enlotus/lotus/test/test_lotus.py::test_Lotus 
+[gw2] [100%] PASSED enlotus/lotus/test/test_config.py::test_LotusConfig 
 
 ================================ tests coverage ================================
 _______________ coverage: platform linux, python 3.12.13-final-0 _______________
@@ -41,7 +41,7 @@ enlotus/lotus/test/test_lotus.py       28      0   100%
 enlotus/lotus/test/test_models.py       4      0   100%
 -------------------------------------------------------
 TOTAL                                 201      0   100%
-============================== 4 passed in 2.72s ===============================
+============================== 4 passed in 2.79s ===============================
     DONE
   ● Write coveragepy output to htmlcov..
     DONE
